@@ -20,7 +20,7 @@ let bustedHead: string = numbers[0] // error: Type 'number' is not assignable to
 
 return (
   <div>
-    <h1>Refer to ArrayNotes.tsx in VScdoe for notes on Typescript arrays.</h1>
+    <h2>Refer to ArrayNotes.tsx in VScdoe for notes on Typescript arrays.</h2>
   </div>
 )
 
