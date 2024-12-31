@@ -63,7 +63,7 @@ const EnumNotes = () => {
 
   return (
     <div>
-      <h1>Refer to EnumNotes.tsx in VScode for notes on Enums.</h1>
+      <h2>Refer to EnumNotes.tsx in VScode for notes on Enums.</h2>
     </div>
   )
   

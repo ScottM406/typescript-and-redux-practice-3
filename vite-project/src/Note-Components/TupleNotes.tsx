@@ -39,7 +39,7 @@ const TupleNotes = () => {
 
   return (
     <div>
-      <h1>Refer to TupleNotes.tsx in VScode for notes on Typescript tuples.</h1>
+      <h2>Refer to TupleNotes.tsx in VScode for notes on Typescript tuples.</h2>
     </div>
   )
 }

@@ -45,7 +45,7 @@ const ObjectTypeNotes = () => {
     console.log(playerJerseyNumberMap); // logs all properties in console browser, even though IDE throws eroor on line 44
 
   return (
-    <h1>Refer to ObjectTypeNotes.tsx for notes on Typescript object types.</h1>
+    <h2>Refer to ObjectTypeNotes.tsx for notes on Typescript object types.</h2>
   )
 }
 
