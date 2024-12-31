@@ -1,5 +1,6 @@
 const TypeNotes = () => {
-    // When creating a variable, there are two main ways TypeScript assigns a type:
+
+  // When creating a variable, there are two main ways TypeScript assigns a type:
   // 1.) Explicit
   // 2.) Implicit
 
@@ -56,5 +57,13 @@ const TypeNotes = () => {
 
   const var3: undefined = undefined;
   const var4: null = null;
-  
+
+  return (
+    <div>
+      
+    </div>
+  )
+
 }
+
+export default TypeNotes;
