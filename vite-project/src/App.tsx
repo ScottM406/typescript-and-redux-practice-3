@@ -1,5 +1,6 @@
-import TypeNotes from "./TypesNotes";
-import ArrayNotes from "./ArrayNotes";
+import TypeNotes from "./Note-Components/TypesNotes";
+import ArrayNotes from "./Note-Components/ArrayNotes";
+import TupleNotes from "./Note-Components/TupleNotes";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <TypeNotes />
       <ArrayNotes />
+      <TupleNotes />
     </>
   )
 }

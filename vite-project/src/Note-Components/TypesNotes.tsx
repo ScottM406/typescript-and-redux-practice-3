@@ -60,7 +60,7 @@ const TypeNotes = () => {
 
   return (
     <div>
-      
+      <h1>Refer to Typenotes.tsx in VScode for notes on types.</h1>
     </div>
   )
 
