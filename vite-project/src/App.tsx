@@ -2,6 +2,7 @@ import TypeNotes from "./Note-Components/TypesNotes";
 import ArrayNotes from "./Note-Components/ArrayNotes";
 import TupleNotes from "./Note-Components/TupleNotes";
 import ObjectTypeNotes from "./Note-Components/ObjectTypeNotes";
+import EnumNotes from "./Note-Components/EnumNotes";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <ArrayNotes />
       <TupleNotes />
       <ObjectTypeNotes />
+      <EnumNotes />
     </>
   )
 }
