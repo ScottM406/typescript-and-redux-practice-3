@@ -4,6 +4,7 @@ import TupleNotes from "./Note-Components/TupleNotes";
 import ObjectTypeNotes from "./Note-Components/ObjectTypeNotes";
 import EnumNotes from "./Note-Components/EnumNotes";
 import AliasesAndInterfaces from "./Note-Components/AliasesAndInterfacesNotes";
+import UnionTypes from "./Note-Components/UnionTypeNotes";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <ObjectTypeNotes />
       <EnumNotes />
       <AliasesAndInterfaces />
+      <UnionTypes />
     </>
   )
 }
