@@ -13,7 +13,8 @@ const UnionTypes = () => {
   //Union Type Errors - a coder needs to know what thier types are when union types are being used to avoid errors:
   
   const printJerseyNumber2 = (jerseyNumber: number | string ) => {
-    console.log(`The player's jersey number is ${jerseyNumber.toUppercase()}`)
+    console.log(`The player's jersey number is ${jerseyNumber.toUppercase()}`) //error - Property 'toUppercase' does not exist on type 'string | number'.
+  
   }
 
   return (
