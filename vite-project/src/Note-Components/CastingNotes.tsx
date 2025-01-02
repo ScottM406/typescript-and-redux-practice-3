@@ -26,7 +26,8 @@ const Casting = () => {
 
     //FORCE CASTING - To override type errors that Typescript may throw when casting, first cast to unknown, then to the target type:
     let z = "howdy";
-    console.log(((z as unknown) as number).length) // returns undefined, as z is not a number
+    console.log(((z as unknown) as number).length) // error - Property 'length' does not exist on type 'number'.
+    // ^ chrome console still returns '5', though W3 schools says it will return undefined as z in not a number.
 
   return (
     <h2>Refer to CastingNotes.tsx for notes on Typescript Casting.</h2>
