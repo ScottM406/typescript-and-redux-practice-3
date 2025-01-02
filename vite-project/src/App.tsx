@@ -7,6 +7,7 @@ import AliasesAndInterfaces from "./Note-Components/AliasesAndInterfacesNotes";
 import UnionTypes from "./Note-Components/UnionTypeNotes";
 import Functions from "./Note-Components/FunctionNotes";
 import Casting from "./Note-Components/CastingNotes";
+import ClassNotes from "./Note-Components/ClassNotes";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <UnionTypes />
       <Functions />
       <Casting />
+      <ClassNotes />
     </>
   )
 }
