@@ -9,6 +9,26 @@ const Casting = () => {
     let theGivenVariable: unknown = "howdy";
     console.log((theGivenVariable as string).toUpperCase());
 
+    //Note - Casting doesn't actually change the type of the data within the variable, for example the following code will 
+    //not work as expected since the variable x is still holds a number.
+    let x: unknown = 4;
+    console.log((x as string).length); // prints undefined since numbers don't have a length
+
+    //Note - TypeScript will still attempt to typecheck casts to prevent casts that don't seem correct, 
+    //for example the following will throw a type error since TypeScript knows casting a string to a number
+    //doesn't makes sense without converting the data:
+    console.log((4 as string).length) //error - Conversion of type 'number' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+
+    //CASTING WITH '<>' - works the same as with 'as':
+    
+    let y: unknown = "yo";
+    // console.log((<string>y).length); <------ THIS WOULD WORK IN A .TS FILE - DOESN'T HERE IN A .TSX
+
+    //FORCE CASTING - To override type errors that Typescript may throw when casting, first cast to unknown, then to the target type:
+    let z = "howdy";
+    console.log(((z as unknown) as number).length) // error - Property 'length' does not exist on type 'number'.
+    // ^ chrome console still returns '5', though W3 schools says it will return undefined as z in not a number.
+
   return (
     <h2>Refer to CastingNotes.tsx for notes on Typescript Casting.</h2>
   )
