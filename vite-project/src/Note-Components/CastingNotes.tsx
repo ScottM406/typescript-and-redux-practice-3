@@ -24,6 +24,10 @@ const Casting = () => {
     let y: unknown = "yo";
     // console.log((<string>y).length); <------ THIS WOULD WORK IN A .TS FILE - DOESN'T HERE IN A .TSX
 
+    //FORCE CASTING - To override type errors that Typescript may throw when casting, first cast to unknown, then to the target type:
+    let z = "howdy";
+    console.log(((z as unknown) as number).length) // returns undefined, as z is not a number
+
   return (
     <h2>Refer to CastingNotes.tsx for notes on Typescript Casting.</h2>
   )
