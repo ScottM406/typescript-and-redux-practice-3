@@ -8,6 +8,7 @@ import UnionTypes from "./Note-Components/UnionTypeNotes";
 import Functions from "./Note-Components/FunctionNotes";
 import Casting from "./Note-Components/CastingNotes";
 import ClassNotes from "./Note-Components/ClassNotes";
+import GenericsNotes from "./Note-Components/GenericsNotes";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Functions />
       <Casting />
       <ClassNotes />
+      <GenericsNotes />
     </>
   )
 }

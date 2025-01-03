@@ -186,7 +186,7 @@ const ClassNotes = () => {
       //as they do not have all their members implemented.
 
       const justAChillRectangle = new Rectangle3(10, 30);
-      console.log(justAChillRectangle.describePolygonArea())
+      console.log(justAChillRectangle.describePolygonArea());
 
   return (
     <h2>Refer to ClassNotes.tsx for notes on Typescript classes.</h2>
